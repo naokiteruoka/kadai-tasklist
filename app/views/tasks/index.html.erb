@@ -7,6 +7,8 @@
     <li>
 <%= link_to task.id, task %>
  : 
+<%= task.status %>
+ > 
 <%= task.content %> %>
 </li>
   
@@ -15,3 +17,5 @@
 </ul>
 
 <%= link_to '新規タスクの追加', new_task_path %>
+
+
